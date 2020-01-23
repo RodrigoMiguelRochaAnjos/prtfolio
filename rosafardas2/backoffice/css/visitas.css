@@ -1,0 +1,53 @@
+header ul li:nth-child(5) a{
+  background: #bd3e04;
+  color: rgba(255,255,255,0.7);
+}
+.side-nav ul li:nth-child(4) a{
+  background: #e34949;
+  color: white;
+}
+.uutilizadores h1{
+  background: #e34949;
+  color: white;
+  width: 99%;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  font-size: 1.2em;
+  text-align: left;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.uutilizadores ul{
+  list-style-type: none;
+  border: 1px solid black;
+  border-top: 0;
+  width: 99%;
+  margin-right: 10px;
+  max-height: 600px;
+
+  overflow: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+.uutilizadores ul li{
+  margin: 0px auto;
+  padding: 10px;
+  display: block;
+  border-bottom: 1px solid black;
+}
+.uutilizadores ul li:last-child{
+  border-bottom: 0px solid black;
+
+}
+.uutilizadores ul li span{
+  display: inline-block;
+  width: 40%;
+}
+.uutilizadores input{
+  float: right;
+  border: 0;
+  outline: 0;
+  text-align: left;
+  padding: 5px 10px;
+}

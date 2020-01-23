@@ -1,0 +1,65 @@
+header ul li:nth-child(3) a{
+  background: #bd3e04;
+  color: rgba(255,255,255,0.7);
+}
+.side-nav ul li:nth-child(2) a{
+  background: #e34949;
+  color: white;
+}
+.uutilizadores h1{
+  background: #e34949;
+  color: white;
+  width: 99%;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  font-size: 1.2em;
+  text-align: left;
+  font-weight: 400;
+  margin-top: 0px;
+  display:
+}
+.grid{
+  display: grid;
+  width: 99%;
+  margin-right: 10px;
+  column-gap: 0px;
+  padding-top: 0px;
+  background: white;
+  border: 1px solid black;
+  border-top:0;
+  grid-template-columns: repeat(2, 1fr);
+  height: 326px;
+}
+.center{
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+  color: white;
+}
+.center a{
+  text-decoration: none;
+  color: lightblue;
+  padding: 10px 20px;
+  border: 1px solid lightblue;
+  display: block;
+  background: linear-gradient(to right, lightblue 50%, transparent 50%);
+  background-size: 200% 200%;
+  background-position: bottom right;
+  width: 200px;
+  transition: background-position ease-in-out .3s, color ease-in-out .3s;
+}
+.center a:hover{
+  background-position: bottom left;
+  color: black;
+
+}
+.fotos img{
+  width: 100%;
+}
+.cover{
+  height: 325px;
+  background: rgb(0,0,0,.6);
+  position: relative;
+  transform: translateY(-100%);
+}

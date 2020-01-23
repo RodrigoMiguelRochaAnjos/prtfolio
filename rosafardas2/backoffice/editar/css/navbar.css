@@ -1,0 +1,125 @@
+*{
+  margin: 0px auto;
+  box-sizing: border-box;
+  font-family: century gothic;
+  max-width: 100%;
+}
+body{
+  background: #666;
+}
+#dropZone{
+  padding: 0px;
+  position: relative;
+  left: 0;
+  margin: 0px auto;
+  width: 600px;
+  height: 300px;
+  opacity: 1;
+  z-index: 1;
+}
+.dragover{
+  opacity: 1 !important;
+  z-index: 999999 !important;
+}
+#dropZone::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 90%;
+  top:2%;
+  left: 5%;
+  height: 90%;
+  border: 2px dashed #333;
+
+}
+#dropZone h1{
+  display: block;
+  position: relative;
+  text-align: center;
+  top:50%;
+  transform: translateY(-50%);
+}
+#images{
+  text-align: center;
+}
+#images img{
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+  display:block;
+}
+.item{
+  width: 300px;
+  display: inline-block;
+  margin: 20px;
+  z-index: 20;
+}
+.item a{
+  display: inline-block;
+  padding: 10px;
+  width: 50% ;
+  float: left;
+  background: transparent;
+  margin:0;
+  text-decoration: none;
+  color: black;
+  border: 2px solid #333;
+}
+.editar{
+  color: orange!important;
+  border: 2px solid orange !important;
+}
+.editar:hover{
+  color: #f0f0f0!important;
+  background: orange !important;
+}
+.eliminar{
+  color: red !important;
+  border: 2px solid red !important;
+}
+.eliminar:hover{
+  color: #f0f0f0 !important;
+  background: red !important;
+}
+#pages{
+  width: auto;
+  list-style-type: none;
+  text-align: right;
+}
+#pages li{
+  display: inline-block;
+
+}
+#pages li a{
+  display: block;
+  text-decoration: none;
+  width: 40px;
+  line-height: 35px;
+  font-size: 1.2em;
+  border: 2px solid #333;
+  margin: 5px;
+  color: #333;
+  text-align: center;
+}
+#pages li:hover a{
+  background: #111;
+  color: #f0f0f0 !important;
+}
+.background{
+  background: #111;
+  color: #f0f0f0 !important;
+}
+.missing{
+  position: relative;
+}
+.missing::before{
+  content:'information missing';
+  position: absolute;
+  top:0;
+  right:0;
+  padding: 5px;
+  display: block;
+  background: rgba(20,20,20,.5);
+  border:2px solid red;
+  color: red;
+}

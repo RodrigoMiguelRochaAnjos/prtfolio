@@ -1,0 +1,91 @@
+#go-back{
+  position: absolute;
+  display: block;
+  padding: 10px;
+  border: 2px solid black;
+  max-width: 40px;
+  float: left;
+
+  cursor: pointer;
+}
+header .titulo a{
+  padding: 20px;
+}
+.border{
+  padding-left: 10px;
+}
+.border b{
+  text-align: left;
+  width: 100%;
+  font-size: 1.3em;
+  display: block;
+  padding: 10px 0px;
+}
+.border input{
+  padding-left: 20px;
+}
+input[type="submit"]{
+  margin-bottom: 20px;
+}
+input[type="file"]{
+  margin-left: -30px;
+}
+input[type="text"]{
+  text-align: left;
+  border: 0;
+  outline: 0;
+  background: #F0F0F0;
+  width: 100%;
+}
+input[type="number"]{
+  text-align: left;
+  border: 0;
+  outline: 0;
+  background: #F0F0F0;
+  max-width: 4ch;
+}
+textarea{
+  width: 100%;
+  resize: none;
+  min-height: 100px;
+  text-align: left;
+  padding: 5px;
+  border:0;
+  background: #F0F0F0;
+  padding-left: 20px;
+  outline:0;
+}
+.editar{
+  width: 90%;
+  border: 1px solid black;
+  display: block;
+  padding: 10px;
+  margin: 10px auto;
+  float: right;
+}
+.back{
+  text-decoration: none;
+  color: black !important;
+}
+.back:hover{
+  text-decoration: none;
+  color: black !important;
+}
+#user{
+  padding: 0;
+  text-align: center;
+  margin:0px auto;
+  list-style-type: none;
+  padding-top: 50px;
+}
+#user li{
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+#user li:first-child{
+  border-top: 1px solid black;
+
+}
+#user li input{
+  text-align: center;
+}

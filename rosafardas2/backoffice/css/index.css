@@ -1,0 +1,90 @@
+header ul li:nth-child(2) a{
+  background: #bd3e04;
+  color: rgba(255,255,255,0.7);
+}
+
+.side-nav ul li:first-child a{
+  background: #e34949;
+  color: white;
+}
+.geral-outer{
+
+}
+.geral-outer h1{
+  background: #e34949;
+  color: white;
+  width: 99%;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  font-size: 1.2em;
+  text-align: left;
+  font-weight: 400;
+}
+.geral{
+  display: grid;
+  grid-template-columns:  repeat(4, 1fr);
+  background: #777;
+  width: 99%;
+  height: 300px;
+  column-gap: 20px;
+  padding: 20px;
+  margin-right: 10px;
+  background: white;
+  border: 1px solid black;
+  border-top: 0px;
+}
+.geral-box{
+  background: #DDD;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+.nome{
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2em;
+}
+.nome div{
+  font-size: .75em;
+}
+.uutilizadores h1{
+  background: #e34949;
+  color: white;
+  width: 99%;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  font-size: 1.2em;
+  text-align: left;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.uutilizadores ul{
+  list-style-type: none;
+  border: 1px solid black;
+  border-top: 0;
+  width: 99%;
+  margin-right: 10px;
+  max-height: 300px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.uutilizadores ul li{
+  padding: 10px;
+  display: block;
+  border-bottom: 1px solid black;
+}
+.uutilizadores ul li:last-child{
+  border-bottom: 0px solid black;
+
+}
+.uutilizadores ul li span{
+  display: inline-block;
+  width: 30%;
+}

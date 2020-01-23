@@ -1,0 +1,44 @@
+form input{
+  display: block;
+  font-size: 1.3em;
+  width: 500px;
+  margin: 15px auto;
+  border:0;
+  padding: 5px;
+  outline: none;
+  color: white;
+  background: transparent;
+}
+form input[type="text"]{
+  border-bottom: 1px solid #f0f0f0;
+  padding-left: 50px;
+  background: transparent;
+}
+form input[type="email"]{
+  border-bottom: 1px solid #f0f0f0;
+  padding-left: 50px;
+  background: transparent;
+}
+form input[type="password"]{
+  border-bottom: 1px solid #f0f0f0;
+  padding-left: 50px;
+  background: transparent;
+}
+i{
+  display: block;
+  position: relative;
+  color: #f0f0f0;
+}
+form{
+  width: 700px;
+  margin-top: 20px;
+}
+form i{
+  position: relative;
+  left: 120px;
+  transform: translateY(40px);
+}
+form input[type="submit"]{
+  border: 1px solid #f0f0f0;
+  background: transparent;
+}
